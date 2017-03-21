@@ -1,4 +1,4 @@
-app.service('movies', [function() {
+app.factory('movies', [function() {
   var movies = [{
     id: 0,
     name: "inglorious basterds",
