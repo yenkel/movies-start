@@ -25,9 +25,9 @@
                 </div>
             </div>
             <div class="movies-container">
-                <div ng-repeat="movie in movies">
-                    <div movie-directive my-movie="movie"></div>
-                </div>
+                <ul ng-repeat="movie in movies">
+                    <li movie-directive is-deleting="isDeleting" delete-movies="deleteMovies" delete-movie="deleteMovie" done-delete-movies="doneDeleteMovies" my-movie="movie"></li>
+                </ul>
             </div>
         </div>
     </div>

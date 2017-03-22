@@ -22,8 +22,4 @@ app.controller('MoviesCtrl', ['$scope', 'movies', function($scope, movies) {
         }
     };
 
-    $scope.movie1 = $scope.movies[0];
-    $scope.movie2 = $scope.movies[1];
-    $scope.movie3 = $scope.movies[2];
-
 }]);

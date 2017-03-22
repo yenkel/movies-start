@@ -122,3 +122,7 @@ body {
     text-align: center;
     vertical-align: bottom;
 }
+
+.movies-container ul {
+    display: inline-block;
+}

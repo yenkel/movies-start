@@ -2,7 +2,7 @@ app.factory('movies', [function() {
 
     var movies = [{
         id: 0,
-        name: "inglorious basterds",
+        name: "Inglorious Bastards",
         year: 2009,
         supportedResolution: [720, 1080],
         posterImage: "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg",
@@ -10,7 +10,7 @@ app.factory('movies', [function() {
         isBlockbuster: true
     }, {
         id: 1,
-        name: "braveheart",
+        name: "Braveheart",
         year: 1995,
         supportedResolution: [720, 1080],
         posterImage: "https://upload.wikimedia.org/wikipedia/en/5/55/Braveheart_imp.jpg",
@@ -18,7 +18,7 @@ app.factory('movies', [function() {
         isBlockbuster: true
     }, {
         id: 2,
-        name: "when harry met sally",
+        name: "When Harry Met Sally",
         year: 1989,
         supportedResolution: [480, 720, 1080],
         posterImage: "https://upload.wikimedia.org/wikipedia/en/1/1c/WhenHarryMetSallyPoster.jpg",
