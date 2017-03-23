@@ -1,13 +1,13 @@
 <div class="movie-item" ng-click="onMovieClicked()">
     <div class="movie-image-container">
-        <div ng-show="isDeleting" class="movie-delete-icon glyphicon glyphicon-minus-sign delete-icon" ng-click="deleteMovie(movie)"> </div>
-        <img class="movie-image" ng-src="{{movie.posterImage}}" alt="film image" />
+        <div ng-show="$ctrl.isDeleting" class="movie-delete-icon glyphicon glyphicon-minus-sign delete-icon" ng-click="$ctrl.deleteMovie(movie)"> </div>
+        <img class="movie-image" ng-src="{{$ctrl.movie.posterImage}}" alt="film image" />
     </div>
-    <div class="movie-name">{{movie.name | uppercase}}</div>
+    <div class="movie-name">{{$ctrl.movie.name | uppercase}}</div>
     <div class="movie-sub-info">
-        <div class="movie-year">{{movie.year}}</div>
+        <div class="movie-year">{{$ctrl.movie.year}}</div>
         <div class="movie-resolutions">
-            <span ng-repeat="res in movie.supportedResolution track by $index">
+            <span ng-repeat="res in $ctrl.movie.supportedResolution track by $index">
         {{res}}
 
       </span>

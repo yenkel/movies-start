@@ -123,6 +123,6 @@ body {
     vertical-align: bottom;
 }
 
-.movies-container ul {
+movie-directive {
     display: inline-block;
 }
